@@ -430,7 +430,7 @@ Typecho_Cookie::set('__typecho_lang', $lang);
                 <?php endif;?>
             <?php elseif (isset($_GET['config'])): ?>
             <?php
-                    $adapters = array('Mysql', 'Mysqli', 'Pdo_Mysql', 'SQLite', 'Pdo_SQLite', 'Pgsql', 'Pdo_Pgsql');
+                    $adapters = array('Pdo_SQLite', 'Mysql', 'Mysqli', 'Pdo_Mysql', 'SQLite', 'Pgsql', 'Pdo_Pgsql');
                     foreach ($adapters as $firstAdapter) {
                         if (_p($firstAdapter)) {
                             break;
