@@ -555,6 +555,8 @@ Typecho_Db::set(\$db);
                                     $contents = implode('', $lines);
                                     if (!Typecho_Common::isAppEngine()) {
                                         @file_put_contents('./config.inc.php', $contents);
+                                        //setup config.inc.php for docker container
+                                        system("cp -v /app/config.inc.php /data/config.inc.php && rm -f /app/config.inc.php && ln -sf /data/config.inc.php /app/config.inc.php");
                                     }
 
                                     if (!file_exists('./config.inc.php')) {
