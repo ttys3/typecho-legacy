@@ -227,7 +227,14 @@ Typecho_Cookie::set('__typecho_lang', $lang);
                     </div>
 
                     <div class="p message notice">
-                    <a target="_blank" href="http://spreadsheets.google.com/viewform?key=pd1Gl4Ur_pbniqgebs5JRIg&hl=en">参与用户调查, 帮助我们完善产品</a>
+                        加入NanoDM固件交流群：
+                        <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=b6421e379e86d5d22db97de6f5e42f82e95d37c30c0421fa4d90825d1e3773c1">
+                            <img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="NanoDM固件交流群" title="NanoDM固件交流群">
+                        </a>
+                    </div>
+
+                    <div class="p message notice">
+                        <a target="_blank" href="http://spreadsheets.google.com/viewform?key=pd1Gl4Ur_pbniqgebs5JRIg&hl=en">参与用户typecho官方调查</a>
                     </div>
 
                     <div class="session">
