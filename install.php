@@ -231,6 +231,7 @@ Typecho_Cookie::set('__typecho_lang', $lang);
                         <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=b6421e379e86d5d22db97de6f5e42f82e95d37c30c0421fa4d90825d1e3773c1">
                             <img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="NanoDM固件交流群" title="NanoDM固件交流群">
                         </a>
+                        <img src="/install/794438112.png" alt="扫码加入NanoDM固件交流群">
                     </div>
 
                     <div class="p message notice">
