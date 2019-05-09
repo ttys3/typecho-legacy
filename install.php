@@ -9,7 +9,7 @@
  */
 
 /** hardcode root path for docker */
-define('__TYPECHO_ROOT_DIR__', '/app');
+define('__TYPECHO_ROOT_DIR__', '/app'); define('__TYPECHO_SITE_URL__', '/');
 
 /** 定义插件目录(相对路径) */
 define('__TYPECHO_PLUGIN_DIR__', '/usr/plugins');
